@@ -8,6 +8,7 @@ Final Task ini bertujuan untuk menganalisis risiko gagal bayar pinjaman mengguna
 - Mengevaluasi performa model pada data yang tidak seimbang
 
 *Gambaran Dataset*
+
 Jumlah data: ±46.000 data pinjaman
 Variabel target: risk_flag
 0 = Pinjaman lancar (Good Loan)
@@ -21,10 +22,12 @@ Variabel target: risk_flag
 Catatan: Dataset bersifat tidak seimbang, dengan proporsi pinjaman bermasalah sekitar 11%.
 
 *Model & Evaluasi*
+
 Model Logistic Regression digunakan karena bersifat sederhana dan mudah diinterpretasikan.
 Untuk mengatasi ketidakseimbangan data, digunakan penyesuaian bobot kelas agar model lebih mampu mendeteksi pinjaman bermasalah.
 
 *Hasil evaluasi model:*
+
 Nilai ROC–AUC: 0.67
 Model cukup mampu membedakan antara pinjaman berisiko dan tidak berisiko
 
